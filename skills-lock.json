@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "design": {
+      "source": "SubframeApp/subframe",
+      "sourceType": "github",
+      "skillPath": "plugins/claude/subframe/skills/design/SKILL.md",
+      "computedHash": "949d98688a370ec43826910716e8155e28e0797eb46baadb77de5f88ed847337"
+    },
+    "develop": {
+      "source": "SubframeApp/subframe",
+      "sourceType": "github",
+      "skillPath": "plugins/claude/subframe/skills/develop/SKILL.md",
+      "computedHash": "433e3415d83e097b9437282d5baec330ebcc025251731e82211f50b4d09a1bbb"
+    },
+    "install": {
+      "source": "SubframeApp/subframe",
+      "sourceType": "github",
+      "skillPath": "plugins/claude/subframe/skills/install/SKILL.md",
+      "computedHash": "a194dc91db26095d8a2c1dc8f8b5eb9fff6f5a7cdab1984e3d1596bc2699df1d"
+    }
+  }
+}
