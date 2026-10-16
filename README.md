@@ -2,7 +2,7 @@
 
 > A cinematic, magazine-style developer portfolio for **Tanish Ghosh** — built with Next.js 16, Subframe UI, and Tailwind CSS v4.
 
-[![Deploy to GitHub Pages](https://github.com/tanishghosh/portfolio-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/tanishghosh/portfolio-website/actions/workflows/deploy.yml)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tanishghosh/portfolio-website)
 
 ---
 
@@ -62,19 +62,13 @@ The project is configured for **static export** (`output: "export"` in `next.con
 
 ---
 
-## 🌐 GitHub Pages Deployment
+## 🌐 Deployment — Vercel
 
-Deployment is fully automated via **GitHub Actions** (see [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)).
+The project is deployed via **[Vercel](https://vercel.com)** — zero config required for Next.js.
 
-Every push to `main` will:
-1. Build the static export with `GITHUB_PAGES=true` (sets `basePath` to `/portfolio-website`)
-2. Upload the `./out` folder as a Pages artifact
-3. Deploy to **https://tanishghosh.github.io/portfolio-website/**
-
-### One-time setup (do once)
-
-In your GitHub repo → **Settings → Pages**:
-- Set **Source** to `GitHub Actions`
+1. Go to [vercel.com/new](https://vercel.com/new) and import the `tanishghosh/portfolio-website` repo
+2. Leave all settings as defaults — Vercel auto-detects Next.js
+3. Every push to `main` triggers an automatic production deployment
 
 ---
 
